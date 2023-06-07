@@ -1,0 +1,80 @@
+/* header */
+.header-div{
+    max-width:1440px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-div{
+    width: 94.18px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+.ul-item{
+    width: 416px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    width: 152px;
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 86px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:nth-child(2){
+    background-color: #22C55E;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* section 1 */
+.wraper{
+    max-width: 1140px;
+    width: 90%;
+    margin: 0 auto;
+    height: 568px;
+    background-color: #2A3342;
+    border-radius: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dec1{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.dec2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.wraper-texts{
+    max-width: 847px;
+    width:74.2% ;
+    height: 392px;
+}
+.green-header{
+    width: 62px;
+    height: 22px;
+    background-color: #22C55E;
+    color: #fff;
+    border-radius: 36px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
